@@ -9,10 +9,10 @@ namespace sistemaBlog{
         private List <Usuario> usuarios = new List<Usuario>();
     
 
-   public void criarBlog(String titulo, String emailDono) {
+   public void CriarBlog(String titulo, String emailDono) {
 
         try{
-		    Usuario dono = buscarUsuarioPorEmail(emailDono);
+		    Usuario dono = BuscarUsuarioPorEmail(emailDono);
             Blog novoBlog = new Blog(titulo, dono, DateTime.Now);
 		    blogs.Add(novoBlog);
         }
@@ -22,7 +22,7 @@ namespace sistemaBlog{
         }
 	}
 	
-	public Usuario buscarUsuarioPorEmail(String email) {
+	public Usuario BuscarUsuarioPorEmail(String email) {
 		foreach (Usuario usuario in usuarios) {
 			if(email == usuario.Email) 
 				return usuario;
