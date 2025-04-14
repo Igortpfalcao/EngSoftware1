@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\igor.falcao\\Desktop\\engenharia de software\\EngSoftware1\\Blog\\Blog\\Blog.csproj": {}
+    "C:\\Users\\igor.falcao\\Desktop\\EngSoftware1\\Blog\\Blog\\Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\igor.falcao\\Desktop\\engenharia de software\\EngSoftware1\\Blog\\Blog\\Blog.csproj": {
+    "C:\\Users\\igor.falcao\\Desktop\\EngSoftware1\\Blog\\Blog\\Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\igor.falcao\\Desktop\\engenharia de software\\EngSoftware1\\Blog\\Blog\\Blog.csproj",
+        "projectUniqueName": "C:\\Users\\igor.falcao\\Desktop\\EngSoftware1\\Blog\\Blog\\Blog.csproj",
         "projectName": "Blog",
-        "projectPath": "C:\\Users\\igor.falcao\\Desktop\\engenharia de software\\EngSoftware1\\Blog\\Blog\\Blog.csproj",
+        "projectPath": "C:\\Users\\igor.falcao\\Desktop\\EngSoftware1\\Blog\\Blog\\Blog.csproj",
         "packagesPath": "C:\\Users\\igor.falcao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\igor.falcao\\Desktop\\engenharia de software\\EngSoftware1\\Blog\\Blog\\obj\\",
+        "outputPath": "C:\\Users\\igor.falcao\\Desktop\\EngSoftware1\\Blog\\Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\igor.falcao\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -53,12 +54,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
