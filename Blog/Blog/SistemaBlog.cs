@@ -37,6 +37,9 @@ namespace sistemaBlog{
             Nota nota = new Nota(titulo, texto, DateTime.Now, blog, usuario);
             blog.notas.Add(nota);
         }
+        else{
+            return;
+        }
     }
 }
 }
